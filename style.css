@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    
+}
+body, html{
+    font-size: 18px;
+}
+.contacts{
+    background-color: rgb(92, 92, 218);
+    text-align: center;
+    
+}
+.contacts h2 {
+    color: white;
+}
+.contacts p{
+    color: white;
+}
+h3{
+    color: rgb(75, 75, 168);
+    margin: 20px;
+}
+hr{
+    margin-top: -1.5%;
+    
+}
+span{
+    margin: 25px;
+}
+.profile p{
+    margin: 5px;
+    padding-left: 15%;
+}
+li{
+    margin: 25px;
+}
+p{
+    margin: 15px;
+}
+@media only screen and (min-width: 768px) {
+    body, html{
+        font-size: 1.5em;
+    }
+}
